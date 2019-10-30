@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Captain Quack</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="narrow-wrapper">
+      <a href="">
+        <img class="logo" src="img/logo.png" alt="Captain Quack">
+      </a>
+      <input class="nav-toggle-checkbox" type="checkbox" id="nav-toggle-checkbox">
+      <label class="nav-toggle-button" for="nav-toggle-checkbox">
+        <span></span>
+        <!-- span is needed to create full-area-clickable hamburger menu-->
+      </label>
+
+      <nav>
+        <ul class="nav-menu">
+          <li class="nav-menu__item-with-submenu">
+            <input class="nav-menu__submenu-toggle-checkbox" type="checkbox" id="nav-menu__submenu1-toggle-checkbox">
+            <label class="nav-menu__submenu-toggle-button" for="nav-menu__submenu1-toggle-checkbox"></label>
+            <a class="nav-menu__submenu-title" href="#">АВТОМОБИЛИ</a>
+            <ul class="nav-menu__submenu">
+              <li><a href="#">Подбор авто</a></li>
+              <li><a href="#">Автомобили с пробегом</a></li>
+              <li><a href="#">Карта цен</a></li>
+            </ul>
+          </li>
+          <li><a href="#">АКЦИИ</a></li>
+          <li><a href="#">УСЛУГИ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="narrow-wrapper">
+      <div class="brand-selection-area">
+        <label class="brand-select-label" for="brand-select">Выберите бренд</label>
+        <select class="brand-select" name="brand" id="brand-select">
+          <option value="apo">APO</option>
+          <option value="arbor">ARBOR</option>
+          <option value="burton">BURTON</option>
+          <option value="capita">CAPITA</option>
+          <option value="dc">DC</option>
+          <option value="forum">FORUM</option>
+          <option value="gnu">GNU</option>
+          <option value="joint">JOINT</option>
+          <option value="jones">JONES</option>
+          <option value="lib">LIB</option>
+          <option value="lobster">LOBSTER</option>
+          <option value="never summer">NEVER SUMMER</option>
+          <option value="slash">SLASH</option>
+          <option value="yes">YES</option>
+          <option value="apo">APO</option>
+          <option value="arbor">ARBOR</option>
+          <option value="burton">BURTON</option>
+          <option value="capita">CAPITA</option>
+          <option value="dc">DC</option>
+          <option value="forum">FORUM</option>
+          <option value="gnu">GNU</option>
+          <option value="joint">JOINT</option>
+          <option value="jones">JONES</option>
+          <option value="lib">LIB</option>
+          <option value="lobster">LOBSTER</option>
+          <option value="never summer">NEVER SUMMER</option>
+          <option value="slash">SLASH</option>
+          <option value="yes">YES</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="wide-wrapper">
+      <div class="stretchy-wrapper">
+
+        <div class="slider-container" id="slider1_container">
+          <div class="slider-container__slides" data-u="slides">
+            <div>
+
+              <div class="slider-label__circle slider-label__circle1">
+                <div class="slider-label__text slider-label__text1">
+                  <p>Штаны
+                    <br>Burton Poacher Pants
+                    <br>4 850 руб
+                    <br>
+                    <a class="slider-label__link" href="#">Посмотреть в каталоге</a>
+                  </p>
+                </div>
+              </div>
+
+              <div class="slider-label__circle slider-label__circle2">
+                <div class="slider-label__text slider-label__text2">
+                  <p>Куртка
+                    <br>Burton Poacher Jacket
+                    <br>6 430 руб
+                    <br>
+                    <a class="slider-label__link" href="#">Посмотреть в каталоге</a>
+                  </p>
+                </div>
+              </div>
+
+              <img alt="" data-u="image" src="img/slider__img1.jpg">
+
+            </div>
+            <div>
+
+              <div class="slider-label__circle slider-label__circle3">
+                <div class="slider-label__text slider-label__text3">
+                  <p>Штаны
+                    <br>ACE Protar Pants
+                    <br>4 850 руб
+                    <br>
+                    <a class="slider-label__link" href="#">Посмотреть в каталоге</a>
+                  </p>
+                </div>
+              </div>
+
+              <div class="slider-label__circle slider-label__circle4">
+                <div class="slider-label__text slider-label__text4">
+                  <p>Куртка
+                    <br>ACE Protar Jacket
+                    <br>6 430 руб
+                    <br>
+                    <a class="slider-label__link" href="#">Посмотреть в каталоге</a>
+                  </p>
+                </div>
+              </div>
+
+              <img alt="" data-u="image" src="img/slider__img2.jpg">
+
+            </div>
+            <div>
+
+              <div class="slider-label__circle slider-label__circle5">
+                <div class="slider-label__text slider-label__text5">
+                  <p>Шлем
+                    <br>SLASH Capita Helmet
+                    <br>8 430 руб
+                    <br>
+                    <a class="slider-label__link" href="#">Посмотреть в каталоге</a>
+                  </p>
+                </div>
+              </div>
+
+              <img alt="" data-u="image" src="img/slider__img3.jpg">
+            </div>
+          </div>
+          <span data-u="arrowleft" class="jssora21l"></span>
+          <span data-u="arrowright" class="jssora21r"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="narrow-wrapper">
+
+      <span class="products-table__caption">АВТОМОБИЛИ В НАЛИЧИИ</span>
+      <div class="products-table">
+        <div class="products-table__header">
+          <div class="products-table__header-cell">Название</div>
+          <div class="products-table__header-cell">Год</div>
+          <div class="products-table__header-cell">Цвет</div>
+          <div class="products-table__header-cell">Статус</div>
+          <div class="products-table__header-cell">Цена</div>
+          <div class="products-table__header-cell"></div>
+        </div>
+
+        <div class="product">
+          <div class="product__description">
+            <div class="product__name">1.6 MT Ambiente 85 л.с. МКПП</div>
+            <div class="product__options">+ доп. опция «Радио-навигационная система Amundasen 2DIN, CD, MP3</div>
+          </div>
+          <div class="product__year">2012</div>
+          <div class="product__color">
+            <div class="circle circle--color-282d30"></div>
+          </div>
+          <div class="product__status">Ожидается</div>
+          <div class="product__price">1 689 000 руб.</div>
+          <div class="product__request"><a class="product__request-button" href="#">Запрос</a></div>
+        </div>
+
+        <div class="product">
+          <div class="product__description">
+            <div class="product__name">1.6 MT Ambiente Plus 105 л.с. МКПП</div>
+          </div>
+          <div class="product__year">2012</div>
+          <div class="product__color">
+            <div class="circle circle--color-ffffff"></div>
+          </div>
+          <div class="product__status">Ожидается</div>
+          <div class="product__price">1 189 900 руб.</div>
+          <div class="product__request"><a class="product__request-button" href="#">Запрос</a></div>
+        </div>
+
+        <div class="product">
+          <div class="product__description">
+            <div class="product__name">1.6 MT Trend 105 л.с. МКПП</div>
+          </div>
+          <div class="product__year">2012</div>
+          <div class="product__color">
+            <div class="circle circle--color-282d30"></div>
+          </div>
+          <div class="product__status">В наличии</div>
+          <div class="product__price">1 459 000 руб.</div>
+          <div class="product__request"><a class="product__request-button" href="#">Запрос</a></div>
+        </div>
+
+        <div class="product">
+          <div class="product__description">
+            <div class="product__name">1.6 PowerShift Trend Sport 105 л.с. АКПП</div>
+          </div>
+          <div class="product__year">2012</div>
+          <div class="product__color">
+            <div class="circle circle--color-cbcbcc"></div>
+          </div>
+          <div class="product__status">Ожидается</div>
+          <div class="product__price">1 459 000 руб.</div>
+          <div class="product__request"><a class="product__request-button" href="#">Запрос</a></div>
+        </div>
+
+        <div class="product">
+          <div class="product__description">
+            <div class="product__name">2.0 MT Trend Sport 150 л.с. МКПП</div>
+          </div>
+          <div class="product__year">2012</div>
+          <div class="product__color">
+            <div class="circle circle--color-d74345"> </div>
+          </div>
+          <div class="product__status">Ожидается</div>
+          <div class="product__price">786 000 руб.</div>
+          <div class="product__request"><a class="product__request-button" href="#">Запрос</a></div>
+        </div>
+
+        <div class="product">
+          <div class="product__description">
+            <div class="product__name">2.0 PowerShift Trend Sport 150 л.с. АКПП</div>
+            <div class="product__options">+ доп. опция «Радио-навигационная система Amundasen 2DIN, CD, MP3»</div>
+          </div>
+          <div class="product__year">2013</div>
+          <div class="product__color">
+            <div class="circle circle--color-88c504"></div>
+          </div>
+          <div class="product__status">Нет в наличии</div>
+          <div class="product__price">821 000 руб.</div>
+          <div class="product__request"><a class="product__request-button" href="#">Запрос</a></div>
+        </div>
+
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p class="copyright">© 2015 CAPTAIN QUACK<br>Десница тысячелетия и моллюск!</p>
+  </footer>
+  <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+  <script type="text/javascript" src="js/jssor.slider.mini.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
